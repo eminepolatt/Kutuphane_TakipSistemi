@@ -19,7 +19,7 @@ namespace Kutuphane_Takip_Sistemi
 
         public override string ToString()
         {
-            return $"ID: {Id} - {Ad} ({Yazar}) - Tür: {Tur} - {(OduncVerildiMi ? "📕 Ödünçte" : "📗 Rafta")}";
+            return $"ID: {Id} - {Ad} ({Yazar}) - Tür: {Tur} - {(OduncVerildiMi ? " Ödünçte" : " Rafta")}";
         }
     }
 }
